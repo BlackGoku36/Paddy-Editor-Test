@@ -1,0 +1,69 @@
+{
+    "name": "scene",
+    "objects": [
+        {
+            "id": 1,
+            "name": "Ground",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "rotation": 0,
+            "isSprite": false,
+            "scripts": [],
+            "visible": true,
+            "spriteRef": "ground.png"
+        },
+        {
+            "id": 0,
+            "name": "Player",
+            "x": 0,
+            "y": 60,
+            "width": 520,
+            "height": 540,
+            "rotation": 0,
+            "isSprite": true,
+            "scripts": [
+                {
+                    "name": "PlayerController",
+                    "scriptRef": "Assets/PlayerController.json"
+                }
+            ],
+            "visible": true,
+            "spriteRef": "playerAnim.png"
+        }
+    ],
+    "assets": [
+        {
+            "name": "ground.png",
+            "type": 0,
+            "value": {
+                "pixels": null,
+                "texture_": {
+                    "width": 800,
+                    "height": 400,
+                    "realWidth": 800,
+                    "realHeight": 400,
+                    "filename": ""
+                }
+            },
+            "path": "Assets/ground.png"
+        },
+        {
+            "name": "playerAnim.png",
+            "type": 0,
+            "value": {
+                "pixels": null,
+                "texture_": {
+                    "width": 2048,
+                    "height": 768,
+                    "realWidth": 2048,
+                    "realHeight": 768,
+                    "filename": ""
+                }
+            },
+            "path": "Assets/playerAnim.png"
+        }
+    ],
+    "scripts": []
+}

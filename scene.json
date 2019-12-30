@@ -9,7 +9,7 @@
             "width": 1440,
             "height": 900,
             "rotation": 0,
-            "isSprite": false,
+            "animate": false,
             "scripts": [],
             "visible": true,
             "spriteRef": "ground.png"
@@ -22,7 +22,7 @@
             "width": 520,
             "height": 540,
             "rotation": 0,
-            "isSprite": true,
+            "animate": true,
             "scripts": [
                 {
                     "name": "PlayerController",
